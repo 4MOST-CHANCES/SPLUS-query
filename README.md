@@ -7,20 +7,20 @@ or make a copy of it in the same directory where this script is running.
 SPLUS-download.csv is an example table that contains importat cluster info: id, ra, dec, redshift, 5d200 that were obtained from Cristobal Sifon tables.
 The tables can be downloaded [here](https://drive.google.com/drive/u/0/folders/1DHXo9Boi2rQAs-QfDMlE24eeQTzjPlCM), and their corresponding README file is [here](https://docs.google.com/document/d/1bWPq8471kwvNqi7_LJCtqLERiCUDAtDWSajBnJVQ1js/edit). 
 
-## The script will create
+### The script will create
 - concatenate tables
 - cleaned tables to avoid duplicated objects
 - list of tables with S-PLUS coverage
 - list of tables with NO S-PLUS coverage
 - list of SPLUS tiles used to generate the concatenated tables. 
 
-## Final tables directory (```Fields/Final```):
+### Final tables directory (```Fields/Final```):
 - Clusters_COVERED.dat
 - Clusters_NOT_COVERED.dat
 - Cluster_ConcatenatedFields.csv
 - Cluster_NoDups.csv (if any)
 
-## Partial tables directory (```Fields/Partial```) contain the individual S-PLUS field tables used to create the corresponding concatenated tables. This list of tables for each cluster will be saved in their corrresponding file:
+### Partial tables directory (```Fields/Partial```) contain the individual S-PLUS field tables used to create the corresponding concatenated tables. This list of tables for each cluster will be saved in their corrresponding file:
 - Cluster_downloaded_fields.dat
 
 
